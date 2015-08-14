@@ -3,8 +3,6 @@ iKettle API
 
 A very simple API to the [WIFI Kettle / iKettle](http://smarter.am/).
 
-**Requires nodejs >=0.11**
-
 [![Build
 Status](https://travis-ci.org/lloydwatkin/ikettle.js.svg?branch=master)](https://travis-ci.org/lloydwatkin/ikettle.js)
 [![npm version](https://badge.fury.io/js/kettle.js.svg)](http://badge.fury.io/js/kettle.js)
@@ -190,7 +188,7 @@ ikettle.on('overheat', function() {
 ### Error
 
 ```javascript
-ikettle.on('error', functon(error) {
+ikettle.on('error', function(error) {
   console.log('ERROR', error)
 })
 ```
